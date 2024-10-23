@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "times new romans";
+}
+
+body {
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.left-column {
+  background-color: #d5af14;
+  color: white;
+  padding: 30px 20px;
+  width: 35%;
+  text-align: center;
+}
+
+.left-column img {
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 5px solid white;
+}
+
+.left-column h2 {
+  margin: 15px 0;
+}
+
+.contact,
+.social-media,
+.hobbies {
+  margin-bottom: 25px;
+}
+
+.social-media ul,
+.hobbies ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-media li,
+.hobbies li {
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+}
+
+.social-media li i,
+.contact i {
+  margin-right: 10px;
+}
+
+.social-media li::before,
+.hobbies li::before {
+  content: "•";
+  color: white;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  top: -2px;
+}
+
+.right-column {
+  padding: 30px;
+  width: 65%;
+}
+
+.right-column h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+  border-bottom: 2px solid #d5af14;
+  padding-bottom: 5px;
+}
+
+.right-column p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.skill-bar {
+  margin-bottom: 15px;
+}
+
+.skill-bar .bar {
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.skill-bar .fill {
+  height: 12px;
+  background-color: #d5af14;
+  border-radius: 8px;
+}
+
+.awards,
+.projects {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+ul li::before {
+  content: "✔";
+  color: #d5af14;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+}
